@@ -1,0 +1,25 @@
+{
+    "executions": [
+		   {
+              "symbol": "SPOT",
+              "symbolId": 8749,
+              "quantity":   10,
+              "side":  "Sell",
+              "price": 272.00,
+              "id": 53817355,
+              "orderId": 1357987,
+              "orderChainId": 17710600,
+              "exchangeExecId": "XS1771060050147",
+              "timestam":  "2020-07-08T20:03:41.636000-04:00",
+              "notes":  "",
+              "venue":  "LAMP",
+              "totalCost": 2720.00,
+              "orderPlacementCommission": 0,
+              "commission":    4.95,
+              "executionFee": 0,
+              "secFee": 0,
+              "canadianExecutionFee": 0,
+              "parentId": 0
+           }
+      ]
+ }

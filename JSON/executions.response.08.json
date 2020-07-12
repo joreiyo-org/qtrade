@@ -1,0 +1,46 @@
+{
+    "executions": [
+         {
+               "symbol": "AAPL",
+               "symbolId": 8049,
+               "quantity":   10,
+               "side":  "Sell",
+               "price": 364.70,
+              "id": 53817310,
+               "orderId": 173577454,
+              "orderChainId": 17710600,
+              "exchangeExecId": "XS1771060050147",
+              "timestam":  "2020-07-11T20:03:41.636000-04:00",
+              "notes":  "",
+              "venue":  "LAMP",
+               "totalCost":   3640.70,
+              "orderPlacementCommission": 0,
+               "commission":    4.95,
+              "executionFee": 0,
+              "secFee": 0,
+              "canadianExecutionFee": 0,
+              "parentId": 0
+           },		   
+		   {
+              "symbol": "LAC",
+              "symbolId": 8749,
+              "quantity":   200,
+              "side":  "Buy",
+              "price": 5.10,
+              "id": 53817310,
+              "orderId": 17357007,
+              "orderChainId": 17710600,
+              "exchangeExecId": "XS1771060050147",
+              "timestam":  "2020-07-10T20:03:41.636000-04:00",
+              "notes":  "",
+              "venue":  "LAMP",
+              "totalCost":   1020.00,
+              "orderPlacementCommission": 0,
+              "commission":    4.95,
+              "executionFee": 0,
+              "secFee": 0,
+              "canadianExecutionFee": 0,
+              "parentId": 0
+           }
+      ]
+ }

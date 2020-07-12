@@ -1,0 +1,55 @@
+html { font-size: 22px; }
+/* body { padding: 1rem; } */
+
+
+.page {
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family:"Lucida Console", Monaco, monospace;
+}
+
+
+.header {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15px;
+  font-family:"Lucida Console", Monaco, monospace;
+}
+
+
+.card {
+  background-color: #E0E0E0;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 35px;
+  font-family:"Lucida Console", Monaco, monospace;
+}
+
+.cards {
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
+
+@media (min-width: 400px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 700px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+@media (min-width: 850px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+}
