@@ -12,6 +12,5 @@ const getTokenParameter = () => {
 	}
 )
   .then((response) => response.json())
-  .then((data) => window.sessionStorage.setItem('accessToken', data.access_token));
-		
+  .then((data) => window.sessionStorage.setItem('accessToken', data.access_token));	
 };
