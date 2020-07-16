@@ -8,7 +8,7 @@ const getTokenParameter = () => {
   
     fetch(oauthEndPoint,
 	{method: 'POST', 
-		headers: {'Access-Control-Allow-Origin' : '*'} 
+		headers: {'Access-Control-Allow-Origin' : *} 
 	}
 )
   .then((response) => response.json())
