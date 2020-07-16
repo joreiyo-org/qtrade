@@ -20,5 +20,3 @@ const getTokenParameter = () => {
 		window.sessionStorage.setItem('apiServer', data.api_server);
 	)
 };
-
-
