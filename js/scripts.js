@@ -5,7 +5,10 @@ const getTokenParameter = () => {
   const oauthEndPoint = 'https://login.questrade.com/oauth2/token?client_id=q2bPAJ7jLyRaj71swF4Ep8cHc4wAlQ&code=' + oauthCode + '&grant_type=authorization_code&redirect_uri=https://joreiyo-org.github.io/qtrade/callback.html';
 
   
- fetch(oauthEndPoint, {method: 'POST'} )
+ fetch(oauthEndPoint, 
+		{method: 'POST'}, 
+		headers: {'Access-Control-Allow-Origin' : '*'} 
+	)
   .then(
     function(response) {
       if (response.status !== 200) {
