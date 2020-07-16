@@ -6,7 +6,7 @@ const getTokenParameter = () => {
   
     fetch(oauthEndPoint,
 	{method: 'POST', 
-		headers: {'Access-Control-Allow-Origin' : '*'} 
+		headers: {'Access-Control-Allow-Origin' : 'https://login.questrade.com/'} 
 	}
 )
   .then((response) => response.json())
